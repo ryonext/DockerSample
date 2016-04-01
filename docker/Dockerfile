@@ -23,3 +23,5 @@ LABEL title="WEbAPServerImage"
 LABEL version="1.0"
 LABEL description="This image is WebApplicationServer \
 for JavaEE"
+
+EXPOSE 8080
