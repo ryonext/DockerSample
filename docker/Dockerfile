@@ -1,5 +1,5 @@
 FROM web-base
 
-ENV myName "ryonext"
-ENV myOrder SUSHI TAKUSAN
-ENV myNickName myNickName
+ENV myName="ryonext" \
+    myOrder=SUSHI\ TAKUSAN \
+    myNickName=myNickName
