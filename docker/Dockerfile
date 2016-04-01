@@ -13,3 +13,8 @@ ENV DIRPATH /first
 ENV DIRNAME second
 WORKDIR $DIRPATH/$DIRNAME
 RUN ["pwd"]
+
+RUN ["adduser", "ryonext"]
+RUN ["whoami"]
+USER ryonext
+RUN ["whoami"]
