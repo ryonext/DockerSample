@@ -18,3 +18,8 @@ RUN ["adduser", "ryonext"]
 RUN ["whoami"]
 USER ryonext
 RUN ["whoami"]
+
+LABEL title="WEbAPServerImage"
+LABEL version="1.0"
+LABEL description="This image is WebApplicationServer \
+for JavaEE"
