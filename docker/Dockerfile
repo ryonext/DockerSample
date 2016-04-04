@@ -25,3 +25,6 @@ LABEL description="This image is WebApplicationServer \
 for JavaEE"
 
 EXPOSE 8080
+
+WORKDIR /docker_dir
+ADD host.html web/
